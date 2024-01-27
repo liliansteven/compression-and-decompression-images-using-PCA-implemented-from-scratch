@@ -20,3 +20,22 @@ This repository shows how to use Principal Component Analysis (PCA) to compress 
   - Uses PCA on a `fetch_lfw_people` dataset from scikit-learn.
   - Extracts eigenfaces and compresses face images.
   - Visualizes original and decompressed face images.
+
+## Results 
+
+- Visualization of the original, compressed, and decompressed grayscale images.
+
+![](images/GrayScaleoutput.png)
+
+- Visualization of the original, compressed, and decompressed colored images.
+
+![](images/Coloredoutput.png)
+
+
+- Visualization of the first 5 Eigenfaces of an image to see how the initial components contain the most relevant information of the image.
+
+![](images/First5EigenFacesoutput.png)
+
+- Visualization of the original and decompressed of images in the `fetch_lfw_people` dataset.
+
+![](images/EigenFacesoutput.png)
